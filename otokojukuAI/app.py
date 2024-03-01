@@ -53,7 +53,7 @@ def chat_with_character(user_input, character_info):
 # Streamlitアプリのタイトル
 st.title('魁男塾っぽい チャットボット')
 #アプリのタイトル画像
-st.image("images/男塾.jpg")
+st.image("otokojukuAI/images/民明書房.jpg")
 
 
 # 会話履歴を保存するためのセッション状態の初期化
@@ -131,40 +131,40 @@ def get_emotion(text):
 # キャラクターごとに異なる感情の画像パスをマッピング
 character_emotion_images = {
     "江田島平八っぽいAI": {
-        "Happy": "images/江田島平八.jpg",
-        "Angry": "images/江田島平八.jpg",
-        "Sad": "images/江田島平八.jpg",
-        "Default": "images/江田島平八.jpg",
-        "POSITIVE":"images/江田島平八.jpg",
-        "NEGATIVE":"images/江田島平八.jpg",
-        "NEUTRAL":"images/江田島平八.jpg",
+        "Happy": "otokojukuAI/images/江田島平八.jpg",
+        "Angry": "otokojukuAI/images/江田島平八.jpg",
+        "Sad": "otokojukuAI/images/江田島平八.jpg",
+        "Default": "otokojukuAI/images/江田島平八.jpg",
+        "POSITIVE":"otokojukuAI/images/江田島平八.jpg",
+        "NEGATIVE":"otokojukuAI/images/江田島平八.jpg",
+        "NEUTRAL":"otokojukuAI/images/江田島平八.jpg",
         # その他の感情に対する画像パス...        
     },
     "民明書房っぽいAI": {
-        "Happy": "images/民明書房.jpg",
-        "Angry": "images/民明書房.jpg",
-        "Sad": "images/民明書房.jpg",
-        "Default": "images/民明書房.jpg",
+        "Happy": "otokojukuAI/images/民明書房.jpg",
+        "Angry": "otokojukuAI/images/民明書房.jpg",
+        "Sad": "otokojukuAI/images/民明書房.jpg",
+        "Default": "otokojukuAI/images/民明書房.jpg",
         # その他の感情に対する画像パス...
     },
     # 他のキャラクターに対するマッピング...
 
     "王大人っぽいAI": {
-        "Happy": "images/王大人.jpg",
-        "Angry": "images/王大人.jpg",
-        "Sad": "images/王大人.jpg",
-        "Default": "images/王大人.jpg",
+        "Happy": "otokojukuAI/images/王大人.jpg",
+        "Angry": "otokojukuAI/images/王大人.jpg",
+        "Sad": "otokojukuAI/images/王大人.jpg",
+        "Default": "otokojukuAI/images/王大人.jpg",
         # その他の感情に対する画像パス...
     },
 
     "雷電っぽいAI": {
-        "Happy": "images/雷電.jpg",
-        "Angry": "images/雷電.jpg",
-        "Sad": "images/雷電.jpg",
-        "Default": "images/雷電.jpg",
-        'POSITIVE':"images/雷電.jpg",
-        'NEGATIVE':"images/雷電.jpg",
-        'NEUTRAL':"images/雷電.jpg",
+        "Happy": "otokojukuAI/images/雷電.jpg",
+        "Angry": "otokojukuAI/images/雷電.jpg",
+        "Sad": "otokojukuAI/images/雷電.jpg",
+        "Default": "otokojukuAI/images/雷電.jpg",
+        'POSITIVE':"otokojukuAI/images/雷電.jpg",
+        'NEGATIVE':"otokojukuAI/images/雷電.jpg",
+        'NEUTRAL':"otokojukuAI/images/雷電.jpg",
         # その他の感情に対する画像パス...
     },
 }
