@@ -53,7 +53,7 @@ def chat_with_character(user_input, character_info):
 # Streamlitアプリのタイトル
 st.title('魁男塾っぽい チャットボット')
 #アプリのタイトル画像
-st.image("otokojukuAI/images/民明書房.jpg")
+st.image("otokojukuAI/images/男塾.jpg")
 
 
 # 会話履歴を保存するためのセッション状態の初期化
