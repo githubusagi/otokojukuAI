@@ -88,7 +88,7 @@ if st.button('送信するのである！'):
         # チャットボットからの応答を取得
         response = chat_with_character(user_input, character_info)
         # 応答を表示
-        st.text_area("お返事", value=response, height=100, max_chars=None, disabled=True)
+        st.text_area("返答である！", value=response, height=100, max_chars=None, disabled=True)
 
 
 # ユーザーの入力とAIの応答を会話履歴に追加
@@ -96,7 +96,7 @@ if st.button('送信するのである！'):
         st.session_state.conversation_history.append((st.session_state.selected_character, response))
 
     else:
-        st.warning("メッセージが空欄かも")
+        st.warning("メッセージが空欄だ！")
 
 
 
@@ -214,7 +214,7 @@ st.image(character_image_path, caption=f"{selected_character}の表情",width=20
 
 
 # 会話履歴の表示
-st.write("おしゃべり履歴:")
+st.write("漢たちの履歴:")
 for role, text in st.session_state.conversation_history:
     st.text(f"{role}: {text}")
 
